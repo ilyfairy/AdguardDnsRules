@@ -10,7 +10,8 @@
     <OptimizationPreference>Size</OptimizationPreference>
     <ConcurrentGarbageCollection>false</ConcurrentGarbageCollection>
     <OutDir>bin</OutDir>
-    
+    <Features>FileBasedProgram</Features>
+
     <DebuggerSupport>false</DebuggerSupport>
     <EnableUnsafeUTF7Encoding>false</EnableUnsafeUTF7Encoding>
     <EventSourceSupport>false</EventSourceSupport>
@@ -21,7 +22,6 @@
     <UseNativeHttpHandler>true</UseNativeHttpHandler>
     <UseSystemResourceKeys>true</UseSystemResourceKeys>
     <XmlResolverIsNetworkingEnabledByDefault>false</XmlResolverIsNetworkingEnabledByDefault>
-    <Features>FileBasedProgram</Features>
   </PropertyGroup>
 
   <ItemGroup>

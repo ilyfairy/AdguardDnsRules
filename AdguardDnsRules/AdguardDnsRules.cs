@@ -75,8 +75,8 @@ Console.WriteLine("全部完成");
 void Write(byte[] bytes, string filePath, string[] dns)
 {
     using var outputStream = new FileStream(filePath, FileMode.Create);
-    using var writer = new StreamWriter(outputStream, Encoding.UTF8);
-    var reader = new StreamReader(new MemoryStream(bytes), Encoding.UTF8);
+    using var writer = new StreamWriter(outputStream, new UTF8Encoding(false));
+    var reader = new StreamReader(new MemoryStream(bytes), new UTF8Encoding(false));
 
     Span<char> buffer = stackalloc char[1024];
     int bufferIndex = 0;
