@@ -1,4 +1,4 @@
-﻿#!/usr/bin/dotnet run
+﻿#!/usr/bin/env dotnet run
 using System.Runtime.CompilerServices;
 using System.Text;
 
